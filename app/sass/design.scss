@@ -1,0 +1,17 @@
+#design {
+  padding: 100px 0;
+  .design_item {
+    text-align: center;
+    color: #3b434c;
+    h3 {
+      text-transform: uppercase;
+      font-weight: 600;
+      font-size: 16px;
+      margin: 25px 0;
+    }
+    p {
+      font-size: 14px;
+      line-height: 1.5em;
+    }
+  }
+}
