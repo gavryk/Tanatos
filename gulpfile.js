@@ -5,7 +5,7 @@ const gulp = require('gulp'),
       browserSync = require('browser-sync').create();
 
 gulp.task('scss', function(){ // scss task
-    return gulp.src('app/sass/**/*.scss')
+    return gulp.src('app/sass/main.scss')
         .pipe(plumber())
         .pipe(scss()) // scss to css
         .pipe(autoprefixer('last 15 versions', { cascade: true })) // prefixes

@@ -1,0 +1,100 @@
+#portfolio {
+  padding: 100px 0;
+  .portfolio_title {
+    text-align: center;
+    h3 {
+      font-size: 35px;
+      font-weight: 600;
+      text-transform: uppercase;
+      margin-bottom: 25px;
+      span {
+        color: #f7600e;
+      }
+    }
+    p {
+      font-size: 16px;
+      line-height: 1.8;
+    }
+  }
+  .portfolio_item {
+    margin-top: 100px;
+    .item {
+      width: 100%;
+      height: 390px;
+      margin-bottom: 30px;
+      border-radius: 15px;
+      overflow: hidden;
+      cursor: pointer;
+      .hover_text {
+        height: 100%;
+        text-align: center;
+        padding-top: 40%;
+        background: rgba(247,96,14, 0.9);
+        border-radius: 15px;
+        color: #fff;
+        cursor: pointer;
+        //transform: translateY(-100%);
+        opacity: 0;
+        transition: .5s ease-out;
+        h3 {
+          text-transform: uppercase;
+          font-size: 25px;
+        }
+        p {
+          margin: 40px auto;
+        }
+        a {
+          text-transform: uppercase;
+          text-decoration: none;
+          color: #f56c23;
+          background: white;
+          padding: 10px 30px;
+          border-radius: 10px;
+        }
+      }
+      &:hover {
+        .hover_text {
+          //transform: translateY(0);
+          opacity: 1;
+          transition: .5s ease-out;
+        }
+      }
+    }
+    .prt_first {
+      background: url(../img/P1.jpg)no-repeat center / cover;
+    }
+    .prt_second {
+      background: url(../img/P2.jpg)no-repeat center / cover;
+    }
+    .prt_third {
+      background: url(../img/P3.jpg)no-repeat center / cover;
+    }
+    .prt_fourth {
+      background: url(../img/P4.jpg)no-repeat center / cover;
+    }
+    .prt_fifth {
+      background: url(../img/P5.jpg)no-repeat center / cover;
+    }
+    .prt_sixth {
+      background: url(../img/P6.jpg)no-repeat center / cover;
+    }
+    .show_btn {
+      text-align: center;
+      margin-top: 70px;
+      a {
+        display: inline-block;
+        border-radius: 10px;
+        text-decoration: none;
+        text-transform: uppercase;
+        color: #3b434c;
+        font-weight: 600;
+        padding: 20px 50px;
+        border: 1px solid #d8d9db;
+        &:hover {
+          background-color: #f7600e;
+          color: #fff;
+        }
+      }
+    }
+  }
+}
