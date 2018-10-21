@@ -1,0 +1,18 @@
+#quote {
+  height: 500px;
+  padding: 100px 0;
+  background: url(../img/Whatsay-fon.png) no-repeat center / cover,
+              url(../img/whatsay-bg.jpg)no-repeat center / cover;
+  background-attachment: fixed;
+  position: relative;
+  z-index: 0;
+  .say {
+    text-align: center;
+    p {
+      font-size: 25px;
+      font-style: italic;
+      color: #fff;
+      margin: 25px;
+    }
+  }
+}
