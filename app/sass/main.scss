@@ -3,6 +3,10 @@
 @import "design.scss";
 @import "subscribe.scss";
 @import "portfolio.scss";
+@import "quote.scss";
+@import "ourTeam.scss";
+@import "forma.scss";
+@import "footer.scss";
 
 * {
   padding: 0;
@@ -12,4 +16,13 @@
 
 body {
   font-family: 'Open Sans', sans-serif;
+  h3 {
+    font-size: 35px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+    span {
+      color: #f7600e;
+    }
+  }
 }

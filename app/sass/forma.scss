@@ -1,0 +1,96 @@
+#forma {
+  position: relative;
+  padding: 100px 0;
+  background: url(../img/form-bg.jpg)no-repeat center / cover;
+  z-index: -0;
+  .forma_fon {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background: url(../img/form-fon.png)no-repeat center / cover;
+  }
+  .forma_title {
+    text-align: center;
+    color: #fff;
+  }
+  form {
+    text-align: center;
+    margin-top: 100px;
+    input {
+      padding: 10px;
+      width: 36%;
+      border: none;
+      height: 50px;
+      border-radius: 10px;
+      margin-left: 20px;
+      outline: none;
+    }
+    textarea {
+      padding: 10px;
+      margin-top: 30px;
+      width: 75%;
+      margin-left: 20px;
+      height: 200px;
+      border: none;
+      border-radius: 10px;
+      outline: none;
+    }
+  }
+  .form_btn {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .btn {
+      padding: 15px;
+      border-radius: 10px;
+      border: none;
+      cursor: pointer;
+      margin: 30px 145px;
+      display: flex;
+      width: 200px;
+      justify-content: center;
+      background: #f7600e;
+      color: white;
+      text-decoration: none;
+    }
+    .social {
+      display: flex;
+      justify-content: space-around;
+      width: 310px;
+      margin: 30px 130px;
+      .fb {
+        &:hover {
+          border-radius: 50%;
+          box-shadow: 0 0 30px 5px #205b9f;
+        }
+      }
+      .tw {
+        &:hover {
+          border-radius: 50%;
+          box-shadow: 0 0 30px 5px #00ace3;
+        }
+      }
+      .goog {
+        &:hover {
+          border-radius: 50%;
+          box-shadow: 0 0 30px 5px #ff3921;
+        }
+      }
+      .bask {
+        &:hover {
+          border-radius: 50%;
+          box-shadow: 0 0 30px 5px #ff72a5;
+        }
+      }
+      .be {
+        &:hover {
+          border-radius: 50%;
+          box-shadow: 0 0 30px 5px #009bd5;
+        }
+      }
+    }
+  }
+}

@@ -61,6 +61,7 @@ header {
       transform: rotateY(-90deg);
       transition: 1s ease-out;
       background: rgba(0,0,0,.5);
+      overflow: hidden;
       nav {
         display: flex;
         flex-direction: column;
